@@ -7,8 +7,10 @@
 
 int main(){
     std::string str;
+    std::cout << "Please enter your name below:" << std::flush;
+
     std::cin >> str;
-    std::cout << str;
+    std::cout << "Hi there, " + str + "!" <<std::endl;
 
     std::cout << std::endl << std::endl;
     return (0);
